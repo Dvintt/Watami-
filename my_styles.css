@@ -1,0 +1,114 @@
+/* Opacity For NavBar */
+.navbar-custom:hover {
+    opacity: 1;
+}
+
+/* Navbar customized */
+
+.navbar-inverse {
+    opacity: 1;
+    background-color: black;
+    border-bottom-color: white;
+    border-bottom-width: 10px;
+    margin-bottom: 0px;
+    border-radius: 0px;
+}
+
+/* Site background color */
+
+body {
+    background-color: #990000;
+}
+
+/* Menu WIDTH/HEIGHT */
+
+.fMenu {
+    max-width: 995px;
+    max-height: 1900px;
+    padding: 2em 2em 4em;
+}
+
+/* Background menu color */
+
+.bg-2 {
+    background-color: #f7f7f7;
+    border: 5px solid #2d2d30;
+    border-left-style: ridge;
+    border-right-style: groove;
+    border-bottom-style: groove;
+    border-top-style: hidden;
+    opacity: 50%;
+}
+
+/* Text For Food Category */
+/* ex. Use with text header <h3 class="category">Appetizer</h3> */
+.category {
+    text-align: center;
+    color: crimson;
+    text-shadow: 1px 1px #330000;
+}
+
+
+/* General Price Style */
+/* ( Use with span class ex. <li> Noodles <span class="price"> $9.99 </span> </li> ) */
+.price {
+    font-weight: bold;
+    float: right;
+    margin-right: 50px
+}
+
+
+/* Lunch Price */
+/* Look at General Price style for example */
+.priceL {
+    font-weight: bold;
+    float: right;
+    width: 8%;
+    margin-right: 20px;
+}
+
+
+/* Dinner Price */
+/* Look at General Price style for example */
+.priceD {
+    font-weight: bold;
+    float: right;
+    width: 8%;
+    margin-right: 12px;
+}
+
+
+/* Slideshow */
+
+.slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+}
+
+
+/* Height Adjustment For Menu List */
+
+ol li {
+    line-height: 2.5;
+}
+
+
+/* Watami Logo */
+
+.logo {
+    position: absolute;
+    top: 1px;
+    left: 12px;
+    width: 50px;
+}
+
+
+/* Customized Column For Bento Menu */
+
+.column {
+    columns: 2;
+    -webkit-columns: 2;
+    -moz-columns: 2;
+    width: 135%
+}
