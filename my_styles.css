@@ -19,13 +19,12 @@
     margin-bottom: 0px;
     border-radius: 0px;
     
-    text-align: center; /* Set this */
-        display: block !important;
-        height: auto !important;
-        padding-bottom: 16.8px;
-        padding-top: 2px;
-        overflow: visible !important;
- 
+    text-align: center;
+    display: block !important;
+    height: auto !important;
+    padding-bottom:0; /*16.8px */   
+    padding-top: 0; /*2px*/  
+    overflow: visible !important;
 }
 
 /* Size of NavBar */
@@ -39,9 +38,7 @@
 .navFont{
     font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
     font-size: 2.5em;
-    font-style: normal;
-    
-    
+    font-style: normal;  
 }
 
 /* Site background color */
@@ -127,9 +124,8 @@ ol li {
     position: absolute;
     top: 0px;
     left: 5px;
-    width: 390px;
+    width: 400px;
 }
-
 
 /* Customized Column For Bento Menu */
 .column {
