@@ -22,8 +22,8 @@
     text-align: center; /* Set this */
         display: block !important;
         height: auto !important;
-        padding-bottom: 20px;
-        padding-top: 20px;
+        padding-bottom: 16.8px;
+        padding-top: 2px;
         overflow: visible !important;
  
 }
@@ -125,7 +125,7 @@ ol li {
 /* Watami Logo */
 .logo {
     position: absolute;
-    top: 8px;
+    top: 0px;
     left: 5px;
     width: 390px;
 }
