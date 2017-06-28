@@ -1,3 +1,10 @@
+.navbar-nav {
+    display: inline-block;
+    float: none;
+    margin: 0;
+}
+
+
 /* Opacity For NavBar */
 .navbar-custom:hover {
     opacity: 1;
@@ -11,6 +18,14 @@
     border-bottom-width: 10px;
     margin-bottom: 0px;
     border-radius: 0px;
+    
+    text-align: center; /* Set this */
+        display: block !important;
+        height: auto !important;
+        padding-bottom: 20px;
+        padding-top: 20px;
+        overflow: visible !important;
+ 
 }
 
 /* Size of NavBar */
@@ -23,14 +38,18 @@
 /* Font used for NavBar */
 .navFont{
     font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
-    font-size: 1.7em;
+    font-size: 2.5em;
     font-style: normal;
+    
     
 }
 
 /* Site background color */
 body {
-    background-color: #990000;
+    /*background-color: #990000;*/
+    /*background-color: #dfbf9f;*/
+    background-image: url(images/lightyellowback.gif);
+    background-repeat: repeat-x repeat-y;
 }
 
 /* Menu WIDTH/HEIGHT */
@@ -108,7 +127,7 @@ ol li {
     position: absolute;
     top: 8px;
     left: 5px;
-    width: 395px;
+    width: 390px;
 }
 
 

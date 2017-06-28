@@ -1,6 +1,7 @@
- <!DOCTYPE html>
-    <html lang="en">
-    <head>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
     <title>Watami Sushi</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -23,12 +24,18 @@
             <span class="icon-bar"></span> 
           </button>
                 <a class="navbar-brand" href="menu.html">
-                    <img src="images/LOGOANDTITLETRANS.png" alt="Chania" class="img-responsive logo">
+
+                    <picture class="logo">
+                        <source media="(min-width: 1329px)" srcset="images/LOGOANDTITLETRANS.png" class="img-reponsive">
+                        <img src="images/LOGO.png" alt="Logo" class="img-responsive">
+                    </picture>
+
+
                 </a>
 
             </div>
             <div class="collapse navbar-collapse " id="myNavbar">
-                <ul class="nav navbar-nav navbar-right ">
+                <ul class="nav navbar-nav ">
                     <li><a href="menu.html"><span class="navFont">Menu</span></a></li>
                     <li><a href="promotions.html"><span class="navFont">Promotions</span></a></li>
                     <li class="active"><a href="contact_us.html"><span class="navFont">Contact Us</span></a></li>
@@ -69,6 +76,7 @@
                         information.open(map, marker);
                     });
                 }
+
             </script>
             <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA2RNoG-UnS4ozW0byE983x28PG9b0POsw&callback=myMap"></script>
 
@@ -95,4 +103,5 @@
 
     </div>
 </body>
-    </html>
+
+</html>
