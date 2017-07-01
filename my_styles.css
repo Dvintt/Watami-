@@ -40,6 +40,12 @@
     font-style: normal;  
 }
 
+
+.thumbSize{
+    min-height: 50px;
+    height:155px;
+}
+
 /* Site background color */
 body {
     /*background-color: #990000;*/
