@@ -40,6 +40,13 @@
     font-style: normal;  
 }
 
+/* Settings for welcome text */
+pre {
+  white-space: pre-wrap;
+  word-break: normal;
+  font-family:"Tahoma", Geneva, sans-serif;
+  font-size: 1.5em;
+}
 
 .thumbSize{
     min-height: 50px;
@@ -57,7 +64,7 @@ body {
 /* Menu WIDTH/HEIGHT */
 .fMenu {
     max-width: 995px;
-    max-height: 1900px;
+    /*max-height: 1900px;*/
     padding: 2em 2em 4em;
 }
 
