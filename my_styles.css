@@ -47,6 +47,7 @@ pre {
   word-break: normal;
   font-family:"Tahoma", Geneva, sans-serif;
   font-size: 1.5em;
+    background:none;
 }
 
 .thumbSize{
@@ -89,40 +90,6 @@ body {
     text-shadow: 1px 1px #330000;
 }
 
-
-/* General Price Style */
-/* ( Use with span class ex. <li> Noodles <span class="price"> $9.99 </span> </li> ) */
-.price {
-    font-weight: bold;
-    float: right;
-    margin-right: 50px
-}
-
-
-/* Lunch Price */
-/* Look at General Price style for example */
-.priceL {
-    font-weight: bold;
-    float: right;
-    /*width: 8%;*/
-    
-    /*margin-right: 20px;*/
-    margin-right: 10px
-}
-
-
-/* Dinner Price */
-/* Look at General Price style for example */
-.priceD {
-    font-weight: bold;
-    float: right;
-    /*width: 8%;*/
-    
-    /*margin-right: 12px;*/
-    margin-right: -30px
-}
-
-
 /* Slideshow */
 .slideshow-container {
     max-width: 1000px;
@@ -142,7 +109,7 @@ ol li {
     position: absolute;
     top: -5px;
     left: -5px;
-    width: 460px;
+    /*width: 460px;*/
 }
 
 /* Customized Column For Bento Menu */
