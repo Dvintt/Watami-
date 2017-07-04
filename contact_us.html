@@ -11,6 +11,19 @@
 
     <link rel="stylesheet" type="text/css" href="my_styles.css">
 
+<style>
+    .table {
+    border-bottom:0px !important;
+}
+.table th, .table td {
+    border: 1px !important;
+}
+.fixed-table-container {
+    border:0px !important;
+}
+        
+</style>
+    
 </head>
 
 <body>
@@ -84,20 +97,33 @@
             </script>
             <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA2RNoG-UnS4ozW0byE983x28PG9b0POsw&callback=myMap"></script>
 
-            <div style="float:left; margin-left:10%;">
-                <h3 style="color:crimson;
-        text-shadow: 1px 1px #330000">Location</h3>
-                <h4>9978 Scripps Ranch Blvd</h4>
-                <h4>San Diego CA 92131</h4>
-            </div>
-
-            <div style="float:right; margin-right:10%;">
-                <h3 style="color:crimson;text-shadow: 1px 1px #330000;">Hours of Operations</h3>
-                <h4>Sun-Thurs: 11:00am - 9:30pm</h4>
-                <h4>Fri-Sat: 11:00am - 10:00pm</h4>
-            </div>
-
         </div>
+        
+        
+          <table class="table">
+                        <thead>
+                            <tr>
+                                <th ></th>
+                                <th></th>
+                            </tr>
+                        </thead>
+                        <tbody style ="text-align:center">
+                            <tr>
+                                <td> <h3 style="color:crimson;
+        text-shadow: 1px 1px #330000">Location</h3></td>
+                                <td><h3 style="color:crimson;text-shadow: 1px 1px #330000;">Hours of Operations</h3></td>
+                            </tr>
+                        
+                             <tr>
+                                <td> <h4>9978 Scripps Ranch Blvd, <br> <br>San Diego, CA 9213</h4></td>
+                                <td><h4>Sun-Thurs: 11:00am - 9:30pm <br><br>Fri-Sat: 11:00am - 10:00pm</h4></td>
+                            </tr>
+                                 
+                        </tbody>
+        </table>
+        
+        
+        
 
         <div>
             <h3 style="text-align:center;color:crimson;
