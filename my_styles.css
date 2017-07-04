@@ -37,7 +37,7 @@
 /* Font used for NavBar */
 .navFont{
     font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
-    font-size: 2.5em;
+    font-size: 2.45em;
     font-style: normal;  
 }
 
@@ -142,7 +142,7 @@ ol li {
     position: absolute;
     top: -5px;
     left: -5px;
-    /*width: 400px;*/
+    width: 460px;
 }
 
 /* Customized Column For Bento Menu */
@@ -150,7 +150,7 @@ ol li {
     columns: 2;
     -webkit-columns: 2;
     -moz-columns: 2;
-    width: 135%
+    /*width: 135%*/
 }
 
 .menuFont{
